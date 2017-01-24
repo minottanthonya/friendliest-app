@@ -7,22 +7,59 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        
-    <!--POST Friends-->
+ <!--POST Friends-->
+    
         <h3>Add a Friend</h3>
+
         <!--Name-->
-        <p>Name: <input type="text" id="name"></p>
+
+            <p>Name: <input type="text" id="name"></p>
+
         <!--Occupation-->
-        <p>Occupation: <input type="text" id="occupation"></p>
+
+            <p>Occupation: <input type="text" id="occupation"></p>
+
         <!--Age-->
-        <p>Age: <input type="text" id="age"></p>
+
+            <p>Age: <input type="text" id="age"></p>
+
         <button id="add-friend">Add</button>
+
         <!--GET Friends-->
-        <h3>Friends</h3>
-        <ul id="friends">
-            <!--empty unordered list-->
-        </ul>
+        <h3>Friends:<p id="numfriend"> </p></h3>
+        
+        <table id="table" class="table table-border table-hover">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Occupation</th>
+              <th>Age</th>
+              <th>Button</th>
+            </tr>
+
+          </thead>
+          <tbody id="friends">
+            <tr>
+                
+            </tr>
+            <!-- <tr>
+              <th  scope="row">1</th>
+              
+            </tr> -->
+           <!--  <tr>
+              <th scope="row">2</th>
+              <td>Kenn</td>
+              <td>Pascascio</td>
+              <td>kpascasio@elevenfifty.org</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>James</td>
+              <td>Handshoe</td>
+              <td>jhandshoe@elevenfifty.org</td>
+            </tr> -->
+          </tbody>
+        </table>
         
     </div>
     
